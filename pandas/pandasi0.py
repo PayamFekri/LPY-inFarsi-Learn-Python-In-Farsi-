@@ -56,7 +56,7 @@ print(df1)
 print(df1.idxmin(axis=0))# کمترین عدد رو در هر ستووون بدست بیار
 print(df1.idxmax(axis=1))#بزرگترین عدد رو در هر سطررر بدست بیار
 #---------------------------------------
-import pandas as pd
+
 afg = pd.read_csv("afghan bank.csv")
 print(afg)
 print("--------------------------------")
@@ -114,7 +114,6 @@ dfaPLUS = dfa.assign(C = lambda x : x["A"]+ x["B"],D = lambda x : x["A"]+ x["C"]
 print(dfaPLUS)
 print("--------------------------------")
 #--------------------------------------------
-import pandas as pd
 #missing value 
 #مقداری در دیتا ست که ما نداریم
 missing_values = [" "]
@@ -163,7 +162,6 @@ diabet["Diastolic_BP"].interpolate(method= "polynomial",order= 2 , inplace=True)
 print(diabet)
 #---------------------------------------------
 #select subset of a dataframe
-import pandas as pd
 #titanic database
 titanic = pd.read_csv("titanic.csv")
 print(titanic)
@@ -220,8 +218,8 @@ print(titanic, " ezafe kardan meghdar be yek record")
 # split = تقسیم مجموعه داده به یکسری گروه
 # applying function = انجام کار های اماری 
 # combining the result
-import pandas as pd 
-import numpy as np
+
+
 diabet = pd.read_csv("Diabetes Missing Data.csv")
 print(diabet)
 print(type(diabet))
@@ -268,3 +266,4 @@ print()
 print(grouped.transform(score))
 print(grouped['points'].transform(score))
 print(grouped.filter(lambda x : len(x)>= 2))
+
