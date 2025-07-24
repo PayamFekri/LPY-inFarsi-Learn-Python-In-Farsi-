@@ -1,0 +1,42 @@
+'''
+برنامه ای بنویسید که سن کاندیداهای مجلس شورای اسلامی را از ورودی بخواند
+و سن بزرگترین آنها را در خروجی چاپ کند. برنامه ی شما تا زمانی به خواندن از ورودی ادامه می دهد که عدد منفی یک وارد نشده باشد.
+به محض اینکه این عدد در ورودی ظاهر شد برنامه باید خواندن ورودی را خاتمه دهد و بزرگترین سن را چاپ کند.
+سن افراد در بازه ی ۱۰ تا ۹۰ سال می باشد.
+
+                ورودی نمونه:
+                17
+                15
+                39
+                51
+                14
+                32
+                28
+                -1
+                خروجی نمونه:
+                51
+
+'''
+
+bozorg = 0
+
+while True:
+    sen = int(input())
+    if (sen>90 or sen<10)and (sen!=-1) :
+        print("dobare bede")
+        sen = int(input())
+        if (sen>90 or sen<10)and (sen!=-1) :
+            print("dobare bede")
+            sen = int(input())
+            if (sen>90 or sen<10)and (sen!=-1) :
+                print("dobare bede")
+                sen = int(input())
+                if (sen>90 or sen<10)and (sen!=-1) :
+                    print("dobare bede")
+                    sen = int(input())
+    if sen == -1:
+        break
+    if sen > bozorg:
+        bozorg = sen
+
+print(bozorg)
