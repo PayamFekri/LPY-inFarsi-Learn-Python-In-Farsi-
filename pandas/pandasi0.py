@@ -9,32 +9,25 @@ df = pd.DataFrame(
         "Sex"  : ["male","male","female"]
     }
 )
-print(df)
-print("-----------------------")
-print(df.describe(include='object'))#for textual data
-print("-----------------------")
-print(df.describe(include='number'))#for numberical data
 
-print("-----------------------")
-print(df.describe(include='all'))#for both numberical and textual data
+(df.describe(include='number'))#for numberical data
 
-print("-----------------------")
-print(df["Name"])
-print("-----------------------")
+
+(df.describe(include='all'))#for both numberical and textual data
+
+(df["Name"])
+
 #یک ستون بسازیم در حالت کلی
 a = pd.Series([34,23,56], name = "integer number")
-print(a)
-print("-----------------------")
-print(df['Age'].max())
-print("-----------------------")
-print(df.describe()) #summary description
-print("-----------------------")
+
+(df['Age'].max())
+(df.describe()) #summary description
+
 s = pd.Series(np.random.randn(10))
-print(s)
+(s)
 s[::2] = np.nan
-print(s[::2],'ineeeweeeeeeeeeeeeeeeee')
-print("-----")
-print(s)
+(s[::2],'ineeeweeeeeeeeeeeeee')
+
 print("-----")
 print(s.describe())
 print("-----------------------")
