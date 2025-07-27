@@ -12,7 +12,6 @@ df = pd.DataFrame(
 
 (df.describe(include='number'))#for numberical data
 
-
 (df.describe(include='all'))#for both numberical and textual data
 
 (df["Name"])
@@ -28,13 +27,12 @@ s = pd.Series(np.random.randn(10))
 s[::2] = np.nan
 (s[::2],'ineeeweeeeeeeeeeeeee')
 
-print("-----")
 print(s.describe())
-print("-----------------------")
+
 b = pd.DataFrame(np.random.randn(10,5),columns=['a','b','c','d','e'])
-print(b)
-print(b.describe())
-print("-----------------------")
+(b)
+(b.describe())
+
 f = pd.Series(['a','a','a','a','a','b','b',np.nan,'d']).describe()
 print(f)
 print("-----------------------")
