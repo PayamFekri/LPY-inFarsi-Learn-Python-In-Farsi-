@@ -1,0 +1,24 @@
+Regex Tutorial
+
+In this report, two models of processors are introduced, both from the Intel Core i7-11700K series.
+
+Specifications of the first model are as follows:
+CPU: i7-11700K
+Price: $2000-$3000
+
+The second model offers the same processor at a more affordable price:
+CPU: i7-11700K
+Price: $1000-$2000
+
+For more information, feel free to contact us via email:
+📧 test@gmail.com
+
+Or reach us by phone at:
+📞 09123456789
+
+You can also visit our official website:
+🔗 https://google.com
+
+If you need direct server access, use the following addresses:
+Localhost: 127.0.0.1:8080
+External IP: 21.124.97.3:8080
