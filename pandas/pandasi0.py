@@ -1,129 +1,14 @@
 import pandas as  pd
 import numpy as np
-
-#یک کتابخانه ایجاد کنیم کلا
-df = pd.DataFrame(
-    {
-        "Name" : ["Hamid","ALi","Marzie"],
-        "Age"  : [  22,    30,     18   ],
-        "Sex"  : ["male","male","female"]
-    }
-)
-
-(df.describe(include='number'))#for numberical data
-
-(df.describe(include='all'))#for both numberical and textual data
-
-(df["Name"])
-
-#یک ستون بسازیم در حالت کلی
-a = pd.Series([34,23,56], name = "integer number")
-
-(df['Age'].max())
-(df.describe()) #summary description
-
-s = pd.Series(np.random.randn(10))
-(s)
-s[::2] = np.nan
-(s[::2],'ineeeweeeeeeeeeeeeee')
-
-print(s.describe())
-
-b = pd.DataFrame(np.random.randn(10,5),columns=['a','b','c','d','e'])
-(b)
-(b.describe())
-
-f = pd.Series(['a','a','a','a','a','b','b',np.nan,'d']).describe()
-print(f)
-print("-----------------------")
-#argmin and argmax in numpy = idxmin and idxmax in pandas
-s1 = pd.Series(np.random.randn(5))
-print(s1)
-print(s1.idxmax(),s1.idxmin())#اندیس بزرگترین و کوچکترین را برمیگرداند
-
-print("-----------------------")
-df1 = pd.DataFrame(np.random.randn(5,3),columns=['A','B','C'])
-print(df1)
-print(df1.idxmin(axis=0))# کمترین عدد رو در هر ستووون بدست بیار
-print(df1.idxmax(axis=1))#بزرگترین عدد رو در هر سطررر بدست بیار
-#---------------------------------------
-
-afg = pd.read_csv("afghan bank.csv")
-print(afg)
-print("--------------------------------")
-print(afg.iloc[15])
-print("--------------------------------")
-print(afg[5:10])
-print("--------------------------------")
-print(afg.tail(4))
-print("--------------------------------")
-#assign() : merging the result of the calculation to the DF
-print(afg.assign(col_b_d = afg["birth rate"]/ afg["death rate"]))# همه ستون را اول و همه ستون دوم را می گیرد و بعد بر هم تقسیم می کند
-print("beyn 2 merge ")
-print(afg.assign(col_b_d = lambda x : (x["birth rate"]/ x["death rate"])))# سطر به سطر درایه ها را بر هم تقسیم می کند 
-# دو دستور بالا یک نتیجه را می دهند 
-print("--------------------------------")
-#ًQuery over the DataSet
-print(afg.query("GDP>15856600000"))
-print("--------------------------------")
-print(afg.query("GDP>15856600000").assign(
-    GDP_tarakomJamiiat = lambda x : (x["GDP"]/x["tarakom jamiat"])
-        )
-      )
-print("--------------------------------")
-print(afg.query("GDP>15856600000").assign(
-    GDP_tarakomJamiiat = lambda x : (x["GDP"]/x["tarakom jamiat"]),
-    useInternet_unempolyment= lambda x :(x["use internet"]/x["Unemployment"])
-        )
-    )
-print("--------------------------------")
-new_afghan = afg.query("GDP>15856600000").assign(
-    GDP_tarakomJamiiat = lambda x : (x["GDP"]/x["tarakom jamiat"]),
-    useInternet_unempolyment= lambda x :(x["use internet"]/x["Unemployment"])
-        ).plot(kind="scatter" ,x = "GDP_tarakomJamiiat" , y = "useInternet_unempolyment")#اینجا باید یک نمودار نقطه ای بما بدهد که محور x , y آن مشخص است
-print(new_afghan)
-print("--------------------------------")
-df = pd.DataFrame(
-    {
-        "Name" : ["Hamid","ALi","Marzie"],
-        "Age"  : [  22,    30,     18   ],
-        "Sex"  : ["male","male","female"]
-    }
-)
-#برای سیو کردن یک دیتا فریم
-#df.to_csv("mydf.csv")
-#df.to_csv("mydf.csv",index=False) اندیس هاس اضافه را دیگر ندارد
-dfa = pd.DataFrame(
-    {
-    "A" : [1,2,3],
-    "B" : [4,5,6]
-    }
-)
-print(dfa)
-print("--------------------------------")
-dfaPLUS = dfa.assign(C = lambda x : x["A"]+ x["B"],D = lambda x : x["A"]+ x["C"])
-print(dfaPLUS)
-print("--------------------------------")
-#--------------------------------------------
+#----------------------------------------
 #missing value 
 #مقداری در دیتا ست که ما نداریم
 missing_values = [" "]
 diabet =pd.read_csv("diabet.csv",na_values= missing_values)
-print(diabet)
-print("-------------------------")
-print("bayad az comment code ha ro kharej koniii ta natije neshun dade beshe")
-#two solution for handle missing values : 
-#1-remove the row/s which has/have missing values
-#2-filling out the missing values
+
 ######diabet.dropna(axis=0, inplace=True,how="any" )
-#inplace :همین تغییرات رو روی همین دیتا فریم ایجاد کن
-#how="any" : سطری رو پاک کن که حداقل یک nan  داشته باشد
-#how="all" : هر سطری که همه مقادیر ان nan دارد رار حذف کن 
-#axis = 0 :  سطر 
-#axis = 1 :  ستون
-#print(diabet)# nan دار ها حذف شدند
 print("-------------------------")
-print("bayad az comment code ha ro kharej koniii ta natije neshun dade beshe")
+
 # filling with median , mode , mean
 #diabet["Diastolic_BP"].fillna(diabet["Diastolic_BP"].median(),inplace=True)
 #diabet["Diastolic_BP"].fillna(diabet["Diastolic_BP"].mode(),inplace=True)
@@ -257,4 +142,3 @@ print()
 print(grouped.transform(score))
 print(grouped['points'].transform(score))
 print(grouped.filter(lambda x : len(x)>= 2))
-
