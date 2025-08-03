@@ -35,4 +35,5 @@
 - [pandas documentation](https://pandas.pydata.org/docs/)
 - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Introduction to Python Programming](https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf)
+- 
 📌 **توجه**: این منبع به‌مرور تکمیل می‌شود. هر گونه پیشنهاد یا انتقاد مفید است!
