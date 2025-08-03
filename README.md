@@ -1,8 +1,7 @@
-# Learn-Python-In-Farsi
+# یادگیری پایتون (Learning Python)  
 ![grok_image_ht1d6q](https://github.com/user-attachments/assets/68a74f1e-5267-4b6a-af85-6a22c0dbf954)
 
 
-# یادگیری پایتون (Learning Python)  
 
 این ریپازیتوری شامل منابع(کتابخانه های مختلف)، مثال‌ها و پروژه‌های آموزشی برای یادگیری زبان برنامه‌نویسی **پایتون** است.  
 
@@ -13,15 +12,11 @@
 - [مشارکت](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-?tab=readme-ov-file#%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA)
 
 ## نصب و راه‌اندازی  
-برای شروع کار با پایتون، آخرین نسخه را از [سایت رسمی پایتون](https://www.python.org/downloads/) دانلود و نصب کنید.    
-
-توضیح داده شده‌اند.  
+برای شروع کار با پایتون، آخرین نسخه را از [سایت رسمی پایتون](https://www.python.org/downloads/) دانلود و نصب کنید.
 
 ## پروژه‌های تمرینی  
 پروژه‌های کوچک و کاربردی برای تسلط بر پایتون:  
 1. - 
-2. -
-3. - 
 
 ## مشارکت  
 اگر مایل به مشارکت هستید، لطفاً:  
