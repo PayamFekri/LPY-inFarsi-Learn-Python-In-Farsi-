@@ -1,5 +1,5 @@
-# Learn-Python-In-Farsi-
-[grok_image_ht1d6q](C:\Users\ofogh\Desktop\git repo\LPY-inFarsi-Learn-Python-In-Farsi-\README\grok_image_ht1d6q.jpg)
+# Learn-Python-In-Farsi
+![Uploading grok_image_ht1d6q.jpg…]()
 
 # یادگیری پایتون (Learning Python)  
 
