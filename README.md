@@ -1,5 +1,4 @@
-# LPY-inFarsi-Learn-Python-In-Farsi-
-(Learn Python In Farsi)
+# Learn-Python-In-Farsi-
 changed from git![grok_image_f61omf](https://github.com/user-attachments/assets/8ed7726e-cc02-447b-9e90-72626afa88b6)
 
 # یادگیری پایتون (Learning Python)  
@@ -7,7 +6,7 @@ changed from git![grok_image_f61omf](https://github.com/user-attachments/assets/
 این ریپازیتوری شامل منابع، مثال‌ها و پروژه‌های آموزشی برای یادگیری زبان برنامه‌نویسی **پایتون** است.  
 
 ## 🚀 فهرست مطالب  
-- [نصب و راه‌اندازی](#نصب-و-راه‌اندازی)  
+- [pandas](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/pandas)  
 - [مبانی پایتون](#مبانی-پایتون)  
 - [پروژه‌های تمرینی](#پروژه‌های-تمرینی)  
 - [مشارکت](#مشارکت)  
