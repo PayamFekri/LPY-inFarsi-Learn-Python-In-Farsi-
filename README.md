@@ -1,5 +1,5 @@
 # Learn-Python-In-Farsi-
-changed from git![grok_image_f61omf](https://github.com/user-attachments/assets/8ed7726e-cc02-447b-9e90-72626afa88b6)
+[grok_image_f61omf](https://github.com/user-attachments/assets/8ed7726e-cc02-447b-9e90-72626afa88b6)
 
 # یادگیری پایتون (Learning Python)  
 
@@ -30,8 +30,8 @@ changed from git![grok_image_f61omf](https://github.com/user-attachments/assets/
 
 ## منابع بیشتر  
 - [مستندات رسمی پایتون](https://docs.python.org/3/)  
-- [book(Hans-Petter Halvorsen) ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.halvorsen.blog/documents/programming/python/resources/Python%20Programming.pdf)
+- [Python Programming book(Hans-Petter Halvorsen) ](https://www.halvorsen.blog/documents/programming/python/resources/Python%20Programming.pdf)
 - [pandas documentation](https://pandas.pydata.org/docs/)
 - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Introduction to Python Programming](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf)
+- [Introduction to Python Programming](https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf)
 📌 **توجه**: این منبع به‌مرور تکمیل می‌شود. هر گونه پیشنهاد یا انتقاد مفید است!
