@@ -3,14 +3,13 @@ changed from git![grok_image_f61omf](https://github.com/user-attachments/assets/
 
 # یادگیری پایتون (Learning Python)  
 
-این ریپازیتوری شامل منابع، مثال‌ها و پروژه‌های آموزشی برای یادگیری زبان برنامه‌نویسی **پایتون** است.  
+این ریپازیتوری شامل منابع(کتابخانه های مختلف)، مثال‌ها و پروژه‌های آموزشی برای یادگیری زبان برنامه‌نویسی **پایتون** است.  
 
 ## 🚀 فهرست مطالب  
 - [pandas](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/pandas)  
 - [Scraping code](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/scrapingCode)  
-- ["تمرین"](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/Practice)
-- [مشارکت](#مشارکت)
-- [منابع بیشتر](#منابع-بیشتر)  
+- [تمرین](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/Practice)
+- [مشارکت](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-?tab=readme-ov-file#%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA)
 
 ## نصب و راه‌اندازی  
 برای شروع کار با پایتون، آخرین نسخه را از [سایت رسمی پایتون](https://www.python.org/downloads/) دانلود و نصب کنید.    
@@ -19,9 +18,9 @@ changed from git![grok_image_f61omf](https://github.com/user-attachments/assets/
 
 ## پروژه‌های تمرینی  
 پروژه‌های کوچک و کاربردی برای تسلط بر پایتون:  
-1. ماشین حساب ساده  
-2. بازی حدس عدد  
-3. مدیریت لیست کارها (To-Do List)  
+1. - 
+2. -
+3. - 
 
 ## مشارکت  
 اگر مایل به مشارکت هستید، لطفاً:  
@@ -31,11 +30,8 @@ changed from git![grok_image_f61omf](https://github.com/user-attachments/assets/
 
 ## منابع بیشتر  
 - [مستندات رسمی پایتون](https://docs.python.org/3/)  
-- [کتاب «یادگیری آسان پایتون»](example.com)  
-
-📌 **توجه**: این ریپازیتوری به‌مرور تکمیل می‌شود. هر گونه پیشنهاد یا انتقاد مفید است!  
-
----  
-<div dir="rtl">  
-با ❤️ برای جامعه برنامه‌نویسی فارسی  
-</div>  
+- [book(Hans-Petter Halvorsen) ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.halvorsen.blog/documents/programming/python/resources/Python%20Programming.pdf)
+- [pandas documentation](https://pandas.pydata.org/docs/)
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Introduction to Python Programming](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf)
+📌 **توجه**: این منبع به‌مرور تکمیل می‌شود. هر گونه پیشنهاد یا انتقاد مفید است!
