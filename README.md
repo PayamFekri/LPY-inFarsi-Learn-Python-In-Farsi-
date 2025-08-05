@@ -1,4 +1,4 @@
-# یادگیری پایتون (Learning Python)  
+خب# یادگیری پایتون (Learning Python)  
 ![grok_image_ht1d6q](https://github.com/user-attachments/assets/68a74f1e-5267-4b6a-af85-6a22c0dbf954)
 
 
@@ -32,3 +32,4 @@
 - [Introduction to Python Programming](https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf)
 - 
 📌 **توجه**: این منبع به‌مرور تکمیل می‌شود. هر گونه پیشنهاد یا انتقاد مفید است!
+
