@@ -7,7 +7,8 @@
 
 ## 🚀 فهرست مطالب  
 - [pandas](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/pandas)  
-- [Scraping code](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/scrapingCode)  
+- [Scraping code](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/scrapingCode)
+[Numpy](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/Numpy)
 - [تمرین](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/Practice)
 - [مشارکت](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-?tab=readme-ov-file#%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA)
 
