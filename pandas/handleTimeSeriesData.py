@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 tsdb = pd.read_csv('timeseries.csv')
 print(tsdb) 
 tsdb =tsdb.rename(columns={'Date':'datetime'})
-print('-------\n',tsdb)
+
 tsdb['datetime'] = pd.to_datetime(tsdb['datetime'])
 print('-------\n',tsdb['datetime'])
 min = tsdb['datetime'].min()#کمترین زمان را برمیگرداند
