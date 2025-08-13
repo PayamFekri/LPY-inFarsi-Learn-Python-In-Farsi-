@@ -20,7 +20,7 @@
 پروژه‌های کوچک و کاربردی برای تسلط بر پایتون:  
 1. - 
 turtle:
-https://github.com/user-attachments/assets/03efa469-f486-4e85-bc1e-0ef34947f9d3
+![3v](https://github.com/user-attachments/assets/03efa469-f486-4e85-bc1e-0ef34947f9d3)
 
 
 ## مشارکت  
