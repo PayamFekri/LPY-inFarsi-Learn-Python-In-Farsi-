@@ -1,5 +1,5 @@
-from datetime import timedelta , datetime
-from fastapi import APIRouter, Depends, HTTPException
+from datetime import timedelta , datetime, timezone
+from fastapi import APIRouter, Depends ,HTTPException
 from pydantic import BaseModel
 from passlib.context import CryptContext
 from data import session_local
@@ -25,6 +25,7 @@ class CreateUserRequest(BaseModel):
     password : str
     role : str
 
+
 def get_db():
     db = session_local()
     try:
@@ -44,7 +45,7 @@ def authenticate_user(username:str , password:str , db):
 
 def create_access_token(username:str , userID:int , expires_delta:timedelta):
     encode = {'sub': username , 'ID' : userID}
-    expires = datetime.timezone.utc() + expires_delta
+    expires = datetime.now(timezone.utc) + expires_delta
     encode.update({'exp':expires})
     return jwt.encode(encode , secret_key , algorithm= algorithm_hash)
     
@@ -68,9 +69,12 @@ def create_user(db:db_dependency,
     db.commit()
     
 @router.post("/token")
-def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm , Depends()] , db:db_dependency):
-    user = authenticate_user(form_data.username , form_data.password , db)
+def login_for_access_token(
+    form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
+    db: db_dependency):
+    user = authenticate_user(form_data.username, form_data.password, db)
     if not user:
-        return 'Failed Authenticate'
-    
-    return 'Successful Authenticate'
+        raise HTTPException(status_code=401, detail="Failed Authenticate")
+    token = create_access_token(user.username, user.id, timedelta(minutes=20))
+    return {"access_token": token, "token_type": "bearer"}
+
