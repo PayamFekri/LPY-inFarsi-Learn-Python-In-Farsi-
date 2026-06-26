@@ -16,42 +16,6 @@
 
 ---
 
-## 📂 ساختار پروژه
-
-📦 LPY-inFarsi-Learn-Python-In-Farsi
-│
-├── 📁 libraries/                     # کتابخانه‌های پرکاربرد
-│   ├── 📁 collections/               # داده‌های پیشرفته (Counter, defaultdict, deque)
-│   ├── 📁 CustomTkinter/             # رابط کاربری مدرن با Tkinter
-│   ├── 📁 FastAPI/                   # ساخت API حرفه‌ای
-│   │   └── 📁 FastAPI Basic/         # پروژه‌های مقدماتی FastAPI
-│   ├── 📁 Numpy/                     # محاسبات عددی و آرایه‌ها
-│   ├── 📁 pandas/                    # تحلیل و پردازش داده
-│   │   ├── 📁 data sets/             # دیتاست‌های تمرینی
-│   │   └── 📁 missing value/         # مدیریت داده‌های گم‌شده
-│   ├── 📁 re,beautifulsoup - scrapingCode/  # وب‌اسکرپینگ حرفه‌ای
-│   │   ├── 📁 beautifulsoup/         # آموزش کامل BeautifulSoup
-│   │   │   ├── 📁 products_files/    # اسکرپ محصولات
-│   │   │   └── 📁 tables_files/      # اسکرپ جدول‌ها
-│   │   ├── 📁 scrape-project/        # پروژه واقعی اسکرپینگ
-│   │   │   └── 📁 DivarText_files/   # اسکرپ آگهی‌های دیوار
-│   │   └── 📁 SCRIPT 1/              # اسکریپت‌های تمرینی
-│   └── 📁 turtle/                    # برنامه‌نویسی گرافیکی
-│       └── 📁 results/               # خروجی‌های تصویری
-│
-├── 📁 ML/                            # یادگیری ماشین
-│   └── 📁 Leiden & louvain/          # الگوریتم‌های خوشه‌بندی شبکه
-│       └── 📁 archive/
-│
-├── 📁 NMF & Autoencoder/             # مدل‌های کاهش ابعاد
-│
-└── 📁 python Basic/                  # مبانی و اصول پایتون
-├── 📁 collections/               # آشنایی با Collections
-└── 📁 Practice/                  # تمرین‌های متنوع
-
-
----
-
 ## 🎯 مسیر یادگیری
 
 | سطح | عنوان | محتوا |
@@ -59,6 +23,31 @@
 | ⭐ **مقدماتی** | Python Basic | آشنایی با مبانی، حلقه‌ها، شرط‌ها، توابع و Collections |
 | ⭐⭐ **متوسط** | کتابخانه‌ها | کار با Numpy، Pandas، Turtle و Web Scraping |
 | ⭐⭐⭐ **پیشرفته** | FastAPI & ML | ساخت API، الگوریتم‌های خوشه‌بندی و Autoencoder |
+
+---
+
+## 📂 ساختار پروژه
+
+📦 LPY-inFarsi-Learn-Python-In-Farsi/
+│
+├── 📁 python Basic/              # مبانی و اصول پایتون
+│   ├── 📁 collections/           # آشنایی با Collections
+│   └── 📁 Practice/              # تمرین‌های متنوع
+│
+├── 📁 libraries/                 # کتابخانه‌های پرکاربرد
+│   ├── 📁 collections/           # داده‌های پیشرفته (Counter, defaultdict, deque)
+│   ├── 📁 CustomTkinter/         # رابط کاربری مدرن
+│   ├── 📁 FastAPI/               # ساخت API حرفه‌ای
+│   ├── 📁 Numpy/                 # محاسبات عددی
+│   ├── 📁 pandas/                # تحلیل و پردازش داده
+│   ├── 📁 re,beautifulsoup - scrapingCode/  # وب‌اسکرپینگ
+│   └── 📁 turtle/                # برنامه‌نویسی گرافیکی
+│
+├── 📁 ML/                        # یادگیری ماشین
+│   └── 📁 Leiden & louvain/      # الگوریتم‌های خوشه‌بندی
+│
+└── 📁 NMF & Autoencoder/         # مدل‌های کاهش ابعاد
+
 
 ---
 
@@ -74,11 +63,11 @@ pip install numpy pandas beautifulsoup4 requests fastapi uvicorn customtkinter m
 ۳. اجرای مثال‌ها
 
 bash
-# مثال: اجرای یک اسکریپت Numpy
+# اجرای اسکریپت Numpy
 cd libraries/Numpy
 python your_script.py
 
-# مثال: اجرای پروژه FastAPI
+# اجرای پروژه FastAPI
 cd libraries/FastAPI/FastAPI\ Basic
 uvicorn main:app --reload
 
@@ -86,23 +75,41 @@ uvicorn main:app --reload
 
 💡 پروژه‌های عملی
 
-🔹 رسم درخت با Turtle
+🌳 رسم درخت با Turtle
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5f689d81-0cd1-4706-8d1b-0f5793b4029c" alt="Turtle Tree" width="400">
 </p>
+<p align="center">
+  <i>رسم درخت با استفاده از کتابخانه Turtle</i>
+</p>
 
-🔹 اسکرپینگ دیوار (Divar)
+🔍 اسکرپینگ دیوار (Divar)
 
 استخراج خودکار آگهی‌های دیوار با BeautifulSoup
 
-🔹 تحلیل داده با Pandas
+📊 تحلیل داده با Pandas
 
 پردازش دیتاست‌های واقعی و مدیریت داده‌های گم‌شده
 
-🔹 ساخت API با FastAPI
+⚡ ساخت API با FastAPI
 
 طراحی یک وب‌سرویس کامل و تست آن با Swagger
+
+🧠 مدل‌های یادگیری ماشین
+
+پیاده‌سازی الگوریتم‌های خوشه‌بندی Leiden و Louvain
+
+---
+
+📚 منابع تکمیلی
+
+منبع توضیح
+Python Official Docs مستندات رسمی پایتون
+Python Programming PDF کتاب جامع پایتون
+Pandas Documentation مستندات کامل Pandas
+BeautifulSoup Docs آموزش وب‌اسکرپینگ
+OpenStax Python کتاب رایگان پایتون
 
 ---
 
@@ -115,17 +122,6 @@ uvicorn main:app --reload
 3. یک Pull Request ارسال کنید
 
 💬 هر گونه پیشنهاد، انتقاد یا ایده‌پردازی خوش‌آمد است!
-
----
-
-📚 منابع تکمیلی
-
-منبع توضیح
-Python Official Docs مستندات رسمی پایتون
-Python Programming PDF کتاب جامع پایتون
-Pandas Documentation مستندات کامل Pandas
-BeautifulSoup Docs آموزش وب‌اسکرپینگ
-OpenStax Python کتاب رایگان پایتون
 
 ---
 
