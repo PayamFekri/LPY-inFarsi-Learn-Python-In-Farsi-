@@ -1,1 +1,253 @@
-# 🐍 Learning Python (LPY) - Learn Python in Farsi ![grok_image_ht1d6q](https://github.com/user-attachments/assets/68a74f1e-5267-4b6a-af85-6a22c0dbf954) <div align="center"> ### 📚 مجموعه‌ای از آموزش‌ها، مثال‌ها، پروژه‌ها و کتابخانه‌های کاربردی پایتون به زبان فارسی یادگیری پایتون از مقدماتی تا مباحث پیشرفته، تحلیل داده، وب اسکرپینگ، یادگیری ماشین و توسعه API ⭐ اگر این پروژه برایتان مفید بود، فراموش نکنید به آن Star بدهید. </div> --- # 📂 ساختار ریپازیتوری ## 🐍 Python Basics - آموزش مقدماتی پایتون - تمرین‌ها (Practice) - Collections --- ## 📚 Python Libraries ### 📊 Data Analysis - NumPy - Pandas - Data Sets - Missing Values ### 🌐 Web Scraping - Regular Expressions (re) - BeautifulSoup - Scraping Projects - Divar Scraper - نمونه اسکریپت‌های مختلف ### 🎨 GUI Development - CustomTkinter ### ⚡ API Development - FastAPI - FastAPI Basic ### 🐢 Graphics - Turtle ### 📦 Other Libraries - Collections --- # 🤖 Machine Learning - Leiden Algorithm - Louvain Algorithm --- # 🧠 Matrix Factorization - NMF (Non-negative Matrix Factorization) - Autoencoder --- # 🚀 هدف این ریپازیتوری در این ریپازیتوری تلاش شده است تا آموزش‌های کاربردی پایتون به زبان فارسی در یک مکان جمع‌آوری شوند؛ از مفاهیم پایه گرفته تا پروژه‌های واقعی و کتابخانه‌های پرکاربرد. مناسب برای: - ✅ دانشجویان - ✅ افراد مبتدی - ✅ علاقه‌مندان به تحلیل داده - ✅ برنامه‌نویسان پایتون - ✅ علاقه‌مندان به هوش مصنوعی و یادگیری ماشین --- # 💻 نصب پایتون آخرین نسخه پایتون را از وب‌سایت رسمی دانلود کنید: 🔗 https://www.python.org/downloads/ --- # 📚 منابع آموزشی - Python Official Documentation - Pandas Documentation - NumPy Documentation - BeautifulSoup Documentation - FastAPI Documentation - OpenStax - Introduction to Python Programming - Python Programming (Hans-Petter Halvorsen) --- # 🤝 مشارکت اگر تمایل به همکاری دارید: 1. Repository را Fork کنید. 2. تغییرات خود را اعمال کنید. 3. Commit بگیرید. 4. Pull Request ارسال کنید. تمام مشارکت‌ها با آغوش باز پذیرفته می‌شوند. ❤️ --- # ⭐ حمایت از پروژه اگر این پروژه برایتان مفید بود: - ⭐ به Repository ستاره بدهید. - 🍴 آن را Fork کنید. - 📢 با دوستانتان به اشتراک بگذارید. --- <div align="center"> **Made with ❤️ by Payam Fekri** 📌 این پروژه به صورت مداوم بروزرسانی و تکمیل خواهد شد. </div>
+<div align="center">
+
+# 🐍 LPY - Learn Python in Farsi
+
+### یکی از جامع‌ترین منابع آموزش پایتون به زبان فارسی 🇮🇷
+
+آموزش پایتون از سطح مقدماتی تا پروژه‌های واقعی، تحلیل داده، وب اسکرپینگ، توسعه API و یادگیری ماشین.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+
+⭐ اگر این پروژه برایتان مفید بود، لطفاً به آن Star بدهید.
+
+</div>
+
+---
+
+# 📖 درباره پروژه
+
+LPY (Learn Python in Farsi) یک ریپازیتوری متن‌باز برای آموزش زبان برنامه‌نویسی پایتون به زبان فارسی است.
+
+هدف این پروژه ایجاد یک مرجع کامل برای یادگیری پایتون است؛ از مفاهیم پایه تا کتابخانه‌های پرکاربرد، پروژه‌های عملی، تحلیل داده، وب اسکرپینگ، توسعه API و یادگیری ماشین.
+
+---
+
+# 🚀 سرفصل‌ها
+
+- [📂 ساختار پروژه](#-ساختار-پروژه)
+- [📚 بخش‌های آموزشی](#-بخشهای-آموزشی)
+- [💻 شروع کار](#-شروع-کار)
+- [📖 منابع پیشنهادی](#-منابع-پیشنهادی)
+- [🤝 مشارکت](#-مشارکت)
+- [⭐ حمایت از پروژه](#-حمایت-از-پروژه)
+
+---
+
+# 📂 ساختار پروژه
+
+LPY-inFarsi-Learn-Python-In-Farsi
+│
+├── 📁 python Basic
+│   ├── Collections
+│   └── Practice
+│
+├── 📁 libraries
+│   ├── collections
+│   ├── CustomTkinter
+│   ├── FastAPI
+│   │   └── FastAPI Basic
+│   ├── NumPy
+│   ├── Pandas
+│   │   ├── Data Sets
+│   │   └── Missing Values
+│   ├── BeautifulSoup & Regex
+│   └── Turtle
+│
+├── 📁 ML
+│   └── Leiden & Louvain
+│
+└── 📁 NMF & Autoencoder
+---
+
+# 📚 بخش‌های آموزشی
+
+## 🐍 Python Basics
+
+- متغیرها
+- انواع داده
+- شرط‌ها
+- حلقه‌ها
+- توابع
+- کلاس‌ها
+- Collections
+- تمرین‌های متنوع
+
+---
+
+## 📦 Python Libraries
+
+### 📊 Data Analysis
+
+- NumPy
+- Pandas
+- Data Cleaning
+- Missing Values
+- Data Sets
+
+---
+
+### 🌐 Web Scraping
+
+- Regular Expressions (Regex)
+- BeautifulSoup
+- استخراج اطلاعات از وب
+- پروژه‌های واقعی Scraping
+
+---
+
+### ⚡ API Development
+
+- FastAPI
+- ساخت REST API
+- FastAPI Basic
+
+---
+
+### 🖥 GUI
+
+- CustomTkinter
+
+---
+
+### 🎨 Graphics
+
+- Turtle Graphics
+
+---
+
+## 🤖 Machine Learning
+
+- Leiden Algorithm
+- Louvain Algorithm
+
+---
+
+## 🧠 Matrix Factorization
+
+- NMF
+- Autoencoder
+
+---
+
+# 🎯 این ریپازیتوری مناسب چه کسانی است؟
+
+✅ افراد مبتدی
+
+✅ دانشجویان
+
+✅ علاقه‌مندان به برنامه‌نویسی
+
+✅ تحلیل‌گران داده
+
+✅ توسعه‌دهندگان پایتون
+
+✅ علاقه‌مندان به هوش مصنوعی
+
+---
+
+# 💻 شروع کار
+
+## نصب Python
+
+آخرین نسخه Python را از سایت رسمی دانلود کنید:
+
+https://www.python.org/downloads/
+
+---
+
+## Clone Repository
+
+git clone https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-.git
+سپس وارد پوشه پروژه شوید:
+
+cd LPY-inFarsi-Learn-Python-In-Farsi-
+---
+
+# 📖 منابع پیشنهادی
+
+- Python Official Documentation
+- NumPy Documentation
+- Pandas Documentation
+- BeautifulSoup Documentation
+- FastAPI Documentation
+- OpenStax - Introduction to Python Programming
+- Python Programming (Hans-Petter Halvorsen)
+
+---
+
+# 📌 ویژگی‌های پروژه
+
+- ✅ آموزش کاملاً فارسی
+- ✅ مثال‌های متعدد
+- ✅ پروژه‌های عملی
+- ✅ دسته‌بندی مناسب
+- ✅ مناسب یادگیری خودآموز
+- ✅ به‌روزرسانی مداوم
+
+---
+
+# 🗺 Roadmap
+
+- [x] Python Basics
+- [x] NumPy
+- [x] Pandas
+- [x] BeautifulSoup
+- [x] Regular Expressions
+- [x] Turtle
+- [x] FastAPI
+- [x] CustomTkinter
+- [x] Machine Learning
+- [x] NMF
+- [ ] Django
+- [ ] Flask
+- [ ] OpenCV
+- [ ] TensorFlow
+- [ ] PyTorch
+- [ ] Scikit-Learn
+- [ ] Selenium
+- [ ] Streamlit
+- [ ] Docker
+- [ ] PostgreSQL
+
+---
+
+# 🤝 مشارکت
+
+از مشارکت شما استقبال می‌شود.
+
+مراحل مشارکت:
+
+1. Fork Repository
+2. ایجاد Branch جدید
+3. اعمال تغییرات
+4. Commit
+5. ارسال Pull Request
+
+---
+
+# ⭐ حمایت از پروژه
+
+اگر این پروژه برایتان مفید بود:
+
+- ⭐ Star بدهید.
+- 🍴 Fork کنید.
+- 📢 آن را با دیگران به اشتراک بگذارید.
+
+---
+
+# 📜 License
+
+This project is released under the MIT License.
+
+---
+
+<div align="center">
+
+## ❤️ ساخته شده با عشق برای جامعه برنامه‌نویسان فارسی
+
+### اگر پروژه را دوست داشتید، Star ⭐ فراموش نشود.
+
+</div>
