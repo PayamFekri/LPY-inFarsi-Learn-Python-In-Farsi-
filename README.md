@@ -1,129 +1,146 @@
-# یادگیری پایتون (Learning Python)
+# 🐍 آموزش جامع پایتون (Learning Python)
 
-![grok_image_ht1d6q](https://github.com/user-attachments/assets/68a74f1e-5267-4b6a-af85-6a22c0dbf954)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/68a74f1e-5267-4b6a-af85-6a22c0dbf954" alt="Python Learning" width="600">
+</p>
 
-این ریپازیتوری شامل منابع آموزشی، مثال‌ها و پروژه‌های عملی برای یادگیری زبان برنامه‌نویسی پایتون است. محتوا از سطح مقدماتی تا پیشرفته و شامل کتابخانه‌های پرکاربرد، مبانی برنامه‌نویسی و مفاهیم یادگیری ماشین می‌باشد.
-
----
-
-## 📂 ساختار ریپازیتوری
-
-LPY-inFarsi-Learn-Python-In-Farsi/
-├───libraries/                          # کتابخانه‌های مختلف پایتون
-│   ├───collections/                    # کار با داده‌های collections
-│   ├───CustomTkinter/                  # ساخت رابط‌های کاربری مدرن
-│   ├───FastAPI/                        # ساخت API با فریمورک FastAPI
-│   │   └───FastAPI Basic/              # مثال‌های مقدماتی FastAPI
-│   ├───Numpy/                          # محاسبات عددی و آرایه‌ها
-│   ├───pandas/                         # پردازش و تحلیل داده
-│   │   ├───data sets/                  # دیتاست‌های نمونه
-│   │   └───missing value/              # مدیریت مقادیر گم‌شده
-│   ├───re,beautifulsoup - scrapingCode/  # وب‌اسکرپینگ
-│   │   ├───beautifulsoup/              # آموزش BeautifulSoup
-│   │   │   ├───products_files/
-│   │   │   └───tables_files/
-│   │   ├───scrape-project/             # پروژه اسکرپینگ
-│   │   │   └───DivarText_files/
-│   │   └───SCRIPT 1/                   # اسکریپت‌های اولیه
-│   └───turtle/                         # برنامه‌نویسی گرافیکی با Turtle
-│       └───results/                    # خروجی‌های گرافیکی
-├───ML/                                 # مبانی یادگیری ماشین
-│   └───Leiden & louvain/               # الگوریتم‌های خوشه‌بندی
-│       └───archive/
-├───NMF & Autoencoder/                  # مدل‌های ماتریس‌افزایی و خودرمزگذار
-└───python Basic/                       # مبانی زبان پایتون
-├───collections/                    # آشنایی با انواع داده‌های collections
-└───Practice/                       # تمرین‌های عملی
-
+<p align="center">
+  <b>از صفر تا صد برنامه‌نویسی پایتون به همراه پروژه‌های عملی</b>
+</p>
 
 ---
 
-## 🚀 شروع سریع
+## 📖 درباره این مخزن
 
-### پیش‌نیازها
-- نصب پایتون نسخه ۳.۷ یا بالاتر از [سایت رسمی](https://www.python.org/downloads/)
-- نصب کتابخانه‌های مورد نیاز (با دستورات زیر)
+این ریپازیتوری یک **منبع کامل و ساختاریافته** برای یادگیری زبان پایتون است. محتوای آن از مبانی پایه شروع شده و تا کتابخانه‌های پیشرفته، وب‌اسکرپینگ، تحلیل داده و حتی مبانی یادگیری ماشین را پوشش می‌دهد. همه مثال‌ها با رویکرد **یادگیری عملی** و **پروژه‌محور** طراحی شده‌اند.
+
+---
+
+## 📂 ساختار پروژه
+
+📦 LPY-inFarsi-Learn-Python-In-Farsi
+│
+├── 📁 libraries/                     # کتابخانه‌های پرکاربرد
+│   ├── 📁 collections/               # داده‌های پیشرفته (Counter, defaultdict, deque)
+│   ├── 📁 CustomTkinter/             # رابط کاربری مدرن با Tkinter
+│   ├── 📁 FastAPI/                   # ساخت API حرفه‌ای
+│   │   └── 📁 FastAPI Basic/         # پروژه‌های مقدماتی FastAPI
+│   ├── 📁 Numpy/                     # محاسبات عددی و آرایه‌ها
+│   ├── 📁 pandas/                    # تحلیل و پردازش داده
+│   │   ├── 📁 data sets/             # دیتاست‌های تمرینی
+│   │   └── 📁 missing value/         # مدیریت داده‌های گم‌شده
+│   ├── 📁 re,beautifulsoup - scrapingCode/  # وب‌اسکرپینگ حرفه‌ای
+│   │   ├── 📁 beautifulsoup/         # آموزش کامل BeautifulSoup
+│   │   │   ├── 📁 products_files/    # اسکرپ محصولات
+│   │   │   └── 📁 tables_files/      # اسکرپ جدول‌ها
+│   │   ├── 📁 scrape-project/        # پروژه واقعی اسکرپینگ
+│   │   │   └── 📁 DivarText_files/   # اسکرپ آگهی‌های دیوار
+│   │   └── 📁 SCRIPT 1/              # اسکریپت‌های تمرینی
+│   └── 📁 turtle/                    # برنامه‌نویسی گرافیکی
+│       └── 📁 results/               # خروجی‌های تصویری
+│
+├── 📁 ML/                            # یادگیری ماشین
+│   └── 📁 Leiden & louvain/          # الگوریتم‌های خوشه‌بندی شبکه
+│       └── 📁 archive/
+│
+├── 📁 NMF & Autoencoder/             # مدل‌های کاهش ابعاد
+│
+└── 📁 python Basic/                  # مبانی و اصول پایتون
+├── 📁 collections/               # آشنایی با Collections
+└── 📁 Practice/                  # تمرین‌های متنوع
+
+
+---
+
+## 🎯 مسیر یادگیری
+
+| سطح | عنوان | محتوا |
+|-----|-------|-------|
+| ⭐ **مقدماتی** | Python Basic | آشنایی با مبانی، حلقه‌ها، شرط‌ها، توابع و Collections |
+| ⭐⭐ **متوسط** | کتابخانه‌ها | کار با Numpy، Pandas، Turtle و Web Scraping |
+| ⭐⭐⭐ **پیشرفته** | FastAPI & ML | ساخت API، الگوریتم‌های خوشه‌بندی و Autoencoder |
+
+---
+
+## 🛠️ نصب و راه‌اندازی
+
+### ۱. نصب پایتون
+آخرین نسخه پایتون را از [سایت رسمی](https://www.python.org/downloads/) دانلود و نصب کنید.
+
+### ۲. نصب کتابخانه‌ها
+bash
+pip install numpy pandas beautifulsoup4 requests fastapi uvicorn customtkinter matplotlib scikit-learn
+
+۳. اجرای مثال‌ها
 
 bash
-pip install numpy pandas beautifulsoup4 fastapi uvicorn customtkinter
-
-اجرای مثال‌ها
-
-برای اجرای هر کد، به پوشه مربوطه رفته و فایل مورد نظر را اجرا کنید:
-
-bash
+# مثال: اجرای یک اسکریپت Numpy
 cd libraries/Numpy
-python example.py
+python your_script.py
+
+# مثال: اجرای پروژه FastAPI
+cd libraries/FastAPI/FastAPI\ Basic
+uvicorn main:app --reload
 
 ---
 
-🗂️ توضیح پوشه‌ها
+💡 پروژه‌های عملی
 
-کتابخانه‌ها (libraries/)
+🔹 رسم درخت با Turtle
 
-مجموعه‌ای از کتابخانه‌های پرکاربرد پایتون به همراه مثال‌های عملی:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f689d81-0cd1-4706-8d1b-0f5793b4029c" alt="Turtle Tree" width="400">
+</p>
 
-· collections: کار با انواع داده‌های خاص مانند Counter، defaultdict و deque
-· CustomTkinter: ساخت رابط‌های کاربری گرافیکی با ظاهر مدرن
-· FastAPI: ساخت وب‌سرویس‌های سریع و کارآمد
-· Numpy: عملیات ماتریسی و محاسبات علمی
-· pandas: تحلیل داده، تمیزکاری و پردازش دیتاست
-· BeautifulSoup و re: استخراج داده از وب‌سایت‌ها
-· turtle: برنامه‌نویسی گرافیکی و رسم اشکال
+🔹 اسکرپینگ دیوار (Divar)
 
-یادگیری ماشین (ML/)
+استخراج خودکار آگهی‌های دیوار با BeautifulSoup
 
-شامل پیاده‌سازی الگوریتم‌های خوشه‌بندی:
+🔹 تحلیل داده با Pandas
 
-· Leiden & louvain: الگوریتم‌های تشخیص اجتماع در گراف
+پردازش دیتاست‌های واقعی و مدیریت داده‌های گم‌شده
 
-NMF & Autoencoder
+🔹 ساخت API با FastAPI
 
-پیاده‌سازی مدل‌های ماتریس‌افزایی و خودرمزگذار برای کاهش ابعاد داده
-
-مبانی پایتون (python Basic)
-
-شامل:
-
-· آشنایی با انواع داده‌های collections
-· تمرین‌های عملی برای تثبیت یادگیری
+طراحی یک وب‌سرویس کامل و تست آن با Swagger
 
 ---
 
-🧪 پروژه‌های تمرینی
+🤝 مشارکت در توسعه
 
-· رسم درخت با Turtle
-    https://github.com/user-attachments/assets/5f689d81-0cd1-4706-8d1b-0f5793b4029c
-· پروژه اسکرپینگ دیوار (Divar) با BeautifulSoup
-· تحلیل دیتاست با pandas
-· ساخت API ساده با FastAPI
+ما از مشارکت شما استقبال می‌کنیم! برای همکاری:
 
----
+1. فورک (Fork) کنید
+2. تغییرات خود را اعمال کنید
+3. یک Pull Request ارسال کنید
 
-🤝 مشارکت
-
-اگر مایل به همکاری هستید:
-
-1. ریپازیتوری را فورک کنید.
-2. تغییرات مدنظر را اعمال کنید.
-3. یک Pull Request ارسال نمایید.
-
-هرگونه پیشنهاد، ایده یا گزارش باگ با آغوش باز پذیرفته می‌شود!
+💬 هر گونه پیشنهاد، انتقاد یا ایده‌پردازی خوش‌آمد است!
 
 ---
 
 📚 منابع تکمیلی
 
-· مستندات رسمی پایتون
-· Python Programming (Hans-Petter Halvorsen)
-· مستندات pandas
-· مستندات BeautifulSoup
-· Introduction to Python Programming (OpenStax)
+منبع توضیح
+Python Official Docs مستندات رسمی پایتون
+Python Programming PDF کتاب جامع پایتون
+Pandas Documentation مستندات کامل Pandas
+BeautifulSoup Docs آموزش وب‌اسکرپینگ
+OpenStax Python کتاب رایگان پایتون
 
 ---
 
-📌 توجه
+⭐ حمایت
 
-این مخزن به‌مرور زمان تکمیل می‌شود. نظرات و پیشنهادات شما بسیار ارزشمند است!
+اگر این مخزن برای شما مفید بود، لطفاً با ستاره ⭐ دادن به آن، از ما حمایت کنید.
 
-⭐ اگر این مخزن برایتان مفید بود، ستاره دادن یادتان نرود!
+---
+
+📜 مجوز
+
+این پروژه تحت مجوز MIT منتشر شده است.
+
+---
+
+<p align="center">
+  <b>ساخته شده با ❤️ برای جامعه برنامه‌نویسان فارسی‌زبان</b>
+</p>
