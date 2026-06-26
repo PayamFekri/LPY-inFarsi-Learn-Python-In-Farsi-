@@ -1,40 +1,70 @@
-# یادگیری پایتون (Learning Python)  
-![grok_image_ht1d6q](https://github.com/user-attachments/assets/68a74f1e-5267-4b6a-af85-6a22c0dbf954)
+Learn Python 🐍
 
+!grok_image_ht1d6q
 
+این ریپازیتوری شامل منابع، مثال‌ها، کتابخانه‌ها و پروژه‌های آموزشی برای یادگیری زبان برنامه‌نویسی پایتون از سطح مبتدی تا پیشرفته است.
 
+📚 فهرست مطالب
 
-این ریپازیتوری شامل منابع(کتابخانه های مختلف)، مثال‌ها و پروژه‌های آموزشی برای یادگیری زبان برنامه‌نویسی **پایتون** است.  
+🐍 پایتون پایه (python Basic)
+| بخش | توضیحات |
+|------|---------|
+| collections | ساختمان‌های داده پایتون |
+| collections library | کتابخانه collections پایتون |
+| تمرین‌ها | پروژه‌ها و تمرین‌های عملی |
 
-## 🚀 فهرست مطالب  
-- [pandas](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/pandas)  
-- [Scraping code](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/scrapingCode)
-- [Numpy](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/Numpy)
-- [تمرین](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-/tree/main/Practice)
-- [مشارکت](https://github.com/PayamFekri/LPY-inFarsi-Learn-Python-In-Farsi-?tab=readme-ov-file#%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA)
+📦 کتابخانه‌ها (libraries)
+| کتابخانه | توضیحات |
+|----------|---------|
+| pandas | تحلیل داده — شامل دیتاست‌ها و مدیریت مقادیر گمشده |
+| Numpy | محاسبات عددی و آرایه‌ها |
+| BeautifulSoup & re | وب‌اسکرپینگ — شامل BeautifulSoup و پروژه‌های استخراج داده |
+| FastAPI | ساخت API — شامل آموزش FastAPI Basic |
+| CustomTkinter | ساخت رابط گرافیکی (GUI) |
+| turtle | طراحی گرافیکی با لاک‌پشت پایتون |
 
-## نصب و راه‌اندازی  
-برای شروع کار با پایتون، آخرین نسخه را از [سایت رسمی پایتون](https://www.python.org/downloads/) دانلود و نصب کنید.
+🤖 یادگیری ماشین (ML)
+| بخش | توضیحات |
+|------|---------|
+| Leiden & Louvain | الگوریتم‌های تشخیص جامعه در گراف‌ها |
 
-## پروژه‌های تمرینی  
-پروژه‌های کوچک و کاربردی برای تسلط بر پایتون:  
-1. - 
-2. - [execute draw tree](https://github.com/user-attachments/assets/5f689d81-0cd1-4706-8d1b-0f5793b4029c)
+🧠 یادگیری عمیق
+| بخش | توضیحات |
+|------|---------|
+| NMF & Autoencoder | تجزیه ماتریس غیرمنفی و اتوانکودر |
 
+🚀 نصب و راه‌اندازی
 
+برای شروع کار با پایتون:
+آخرین نسخه پایتون را از سایت رسمی دانلود و نصب کنید.
+یک محیط مجازی بسازید:
+   `bash
+   python -m venv venv
+   source venv/bin/activate  # لینوکس/مک
+   venv\Scripts\activate     # ویندوز
+   `
+کتابخانه‌های مورد نیاز هر بخش را نصب کنید:
+   `bash
+   pip install -r requirements.txt
+   `
 
-## مشارکت  
-اگر مایل به مشارکت هستید، لطفاً:  
-1. ریپازیتوری را **فورک** کنید.  
-2. تغییرات خود را اعمال و **کامیت** کنید.  
-3. یک **پول ریکوئست** (Pull Request) ارسال نمایید.  
+🤝 مشارکت
 
-## منابع بیشتر  
-- [مستندات رسمی پایتون](https://docs.python.org/3/)  
-- [Python Programming book(Hans-Petter Halvorsen) ](https://www.halvorsen.blog/documents/programming/python/resources/Python%20Programming.pdf)
-- [pandas documentation](https://pandas.pydata.org/docs/)
-- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Introduction to Python Programming](https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming_-_WEB.pdf)
-- 
-📌 **توجه**: این منبع به‌مرور تکمیل می‌شود. هر گونه پیشنهاد یا انتقاد مفید است!
+اگر مایل به مشارکت هستید، لطفاً:
+ریپازیتوری را فورک کنید.
+شاخه جدید بسازید: git checkout -b feature/your-feature
+تغییرات خود را اعمال و کامیت کنید.
+یک پول ریکوئست (Pull Request) ارسال نمایید.
 
+📖 منابع بیشتر
+مستندات رسمی پایتون
+Python Programming Book (Hans-Petter Halvorsen)
+pandas Documentation
+BeautifulSoup Documentation
+FastAPI Documentation
+NumPy Documentation
+Introduction to Python Programming (OpenStax)
+
+📌 توجه: این منبع به‌مرور تکمیل می‌شود. هرگونه پیشنهاد یا انتقاد سازنده موجب پیشرفت پروژه است!
+
+⭐ اگر این ریپازیتوری برایتان مفید بود، لطفاً ستاره بدهید!
